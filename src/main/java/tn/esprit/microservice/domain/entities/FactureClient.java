@@ -12,7 +12,6 @@ import java.util.Date;
 
 @Data
 @Entity
-@AllArgsConstructor
 @NoArgsConstructor
 public class FactureClient extends Facture implements Serializable {
     @Builder

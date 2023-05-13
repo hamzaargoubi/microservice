@@ -9,7 +9,8 @@ import tn.esprit.microservice.services.FactureFournisseurService;
 
 import java.util.List;
 
-@Controller
+@RestController
+@RequestMapping("factureFournisseur")
 public class FactureFournisseurController {
     @Autowired
     FactureFournisseurService factureFournisseurService;

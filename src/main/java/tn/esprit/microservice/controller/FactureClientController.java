@@ -1,13 +1,13 @@
 package tn.esprit.microservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import tn.esprit.microservice.domain.dtos.FactureClientDTO;
 import tn.esprit.microservice.services.FactureClientService;
 import java.util.List;
 
-@Controller
+@RestController
+@RequestMapping("factureClient")
 public class FactureClientController {
     @Autowired
     FactureClientService factureClientService;
