@@ -1,12 +1,11 @@
 package tn.esprit.microservice.domain.entities;
 
-import jakarta.persistence.Entity;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import tn.esprit.microservice.domain.dtos.FactureClientDTO;
 
+import javax.persistence.Entity;
 import java.io.Serializable;
 import java.util.Date;
 
